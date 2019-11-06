@@ -9,7 +9,7 @@ const express = require('express');
 const authRoutes = require('./routes/auth-router');
 const passportSetup = require('./config/passport-setup');
 const path = require('path');
-const PORT = process.env.PORT || 5555;
+const PORT = process.env.PORT || 7777;
 
 express()
 	.use(express.static(path.join(__dirname, 'public')))
